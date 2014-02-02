@@ -4,7 +4,7 @@ Programmer:			Glenn Lopez
 Date:				2014-02-01 16:33
 Class:				E12
 Description:		Uses lbs of port A for output / altfunc is disabled
-Github page:		
+Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
 					(visit the link above for the latest code revision)		
 ---------------------------------------------------------------------------------*/
 
