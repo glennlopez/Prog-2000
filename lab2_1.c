@@ -1,7 +1,13 @@
 /*---------------------------------------------------------------------------------
+ ____  ____  _____  ___      ___   ___    ___    ___  
+(  _ \(  _ \(  _  )/ __) ___(__ \ / _ \  / _ \  / _ \ 
+ )___/ )   / )(_)(( (_-.(___)/ _/( (_) )( (_) )( (_) )
+(__)  (_)\_)(_____)\___/    (____)\___/  \___/  \___/ 
+	C Programming and Intro to Microcontrollers
+
 Program:			Lab 2.1
 Programmer:			Glenn Lopez
-Date:				2014-02-01 16:33
+Commit Date:		2014-02-01 16:33
 Class:				E12
 Description:		Uses the 3 led's on zilog for output
 Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
@@ -31,7 +37,7 @@ void main(void) //!FLAG#1 - comment out if function requires return 0;
 
 	//data directions
 	PAADDR = 0x01;				//<-- write cycle into PAADDR (0x0FDO)
-	PACTL = 0xF8;				//<-- makes 2 to 0 outputs | 7 to 3 inputs
+	PACTL = 0xF8;				//<-- set pins 2 to 0 outputs, 7 to 3 inputs
 
 	//output controll
 	PAADDR = 0x03;				//<-- write cycle into PAADDR (0x0FDO)
