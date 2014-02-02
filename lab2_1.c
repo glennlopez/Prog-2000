@@ -8,10 +8,12 @@ Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
 	(visit the link above for the latest code history & revision)		
 ---------------------------------------------------------------------------------*/
 
-/*-- 			HEADER FILES 			--*/
-//#include <stdio.h>			//<-- header for compiling C
+/*-- 			START HEADER FILES 			--*/
+//#include <stdio.h>			//<-- Standard Input and Output library for C
 #include <ez8.h>				//<-- library for interfacing with Z8
 //#include<myFunctions.h>		//<-- library for future subroutines and identifiers
+/*-- 			END HEADER FILES 			--*/
+
 
 
 /*-- 			START MAIN FUNCTION 			--*/
