@@ -1,5 +1,9 @@
-Unit 2: Prog-2000 Intro to Microcontrollers (LAB 2)
+Lab 2: C Programming
 ======
+This is the first C programming asignment. The primary task is to get familiar with the Z8 board and 
+commenting your code rather than understanding how to program in C
 
-Note what happens to the LEDs. Be ready to explain why this is happening with the guide of the sauce - hooah?!
+Notes for this lab are available at https://www.evernote.com/shard/s4/sh/fbdd4bd6-e46e-4880-b2ac-fbb15a68fbfd/f2d8281493d43e8da0f2114887c13e20
+
+
 
