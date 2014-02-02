@@ -37,8 +37,8 @@ void main(void) //!FLAG#1 - comment out if function requires return 0;
 	PAADDR = 0x03;				//<-- write cycle into PAADDR (0x0FDO)
 	PACTL = 0x00;				//<-- makes all outputs push-pull
 
-	//
-	PAADDR = 0x00;				//<-- prevent changes to sub-regs
+	//preventative care
+	PAADDR = 0x00;				//<-- prevents any changes to sub-regs
 
 	//assign local variable 'leds' to PAOUT constant
 	PAOUT = leds;				//<-- write cycle to PAOUT (0x0FD3)
