@@ -5,7 +5,7 @@ Date:				2014-02-01 16:33
 Class:				E12
 Description:		Uses the 3 led's on zilog for output
 Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
-	(visit the link above for the latest code history & revision)		
+	(visit the link above for the latest version history & revision)		
 ---------------------------------------------------------------------------------*/
 
 /*-- 			START HEADER FILES 			--*/
