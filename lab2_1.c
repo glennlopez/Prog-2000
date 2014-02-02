@@ -4,10 +4,11 @@
  )___/ )   / )(_)(( (_-.(___)/ _/( (_) )( (_) )( (_) )
 (__)  (_)\_)(_____)\___/    (____)\___/  \___/  \___/ 
 	C Programming and Intro to Microcontrollers
+						Intructor: Denis Korabelnikov
 
 Program:			Lab 2.1
 Programmer:			Glenn Lopez
-Commit Date:		2014-02-01 16:33
+Initial Commit:		2014-02-01 16:33
 Class:				E12
 Description:		Uses the 3 led's on zilog for output
 Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
