@@ -25,13 +25,14 @@ Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
 
 /*-- 			START MAIN FUNCTION 			--*/
 //int main(void) //!FLAG#1 - comment out if function does not require return 0;  
-void main(void) //!FLAG#1 - comment out if function requires return 0;
+void main(void)  //!FLAG#1 - comment out if function requires return 0;
 {
-	//CONSTANT CONFIGURATION
 
 	//create local variable 'leds' to be data 0x05
 	unsigned char leds = 0x05;	//<-- middle led(active low) is on since 5 == 101
 
+/*- PORT A CONFIGURATION -*/
+	
 	//alternate function 
 	PAADDR = 0x02;				//<-- write cycle into PAADDR (0x0FDO)
 	PACTL = 0x00;				//<-- disable dem' alternative functions bra'
