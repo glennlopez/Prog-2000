@@ -4,7 +4,7 @@
  )___/ )   / )(_)(( (_-.(___)/ _/( (_) )( (_) )( (_) )
 (__)  (_)\_)(_____)\___/    (____)\___/  \___/  \___/ 
 	C Programming and Intro to Microcontrollers
-						Intructor: Denis Korabelnikov
+			Intructor: Denis Korabelnikov
 
 Program:			Lab 2.1
 Programmer:			Glenn Lopez
@@ -15,23 +15,24 @@ Github page:		https://github.com/glennlopez/lab2_1/blob/master/lab2_1.c
 	(visit the link above for the latest version history & revision)		
 ---------------------------------------------------------------------------------*/
 
+
 /*-- 			START HEADER FILES 			--*/
 //#include <stdio.h>			//<-- Standard Input and Output library for C
-#include <ez8.h>				//<-- library for interfacing with Z8
+#include <ez8.h>			//<-- library for interfacing with Z8
 //#include<myFunctions.h>		//<-- library for future subroutines and identifiers
 /*-- 			END HEADER FILES 			--*/
 
 
-
 /*-- 			START MAIN FUNCTION 			--*/
 //int main(void) //!FLAG#1 - comment out if function does not require return 0;  
-void main(void) //!FLAG#1 - comment out if function requires return 0;
+void main(void)  //!FLAG#1 - comment out if function requires return 0;
 {
-	//CONSTANT CONFIGURATION
 
-	//create local variable 'leds' to be data 0x05 (binary 101)
-	unsigned char leds = 0x05;	//<-- guessing this light up first and last leds?
+	//create local variable 'leds' to be data 0x05
+	unsigned char leds = 0x05;	//<-- middle led(active low) is on since 5 == 101
 
+/*- PORT A CONFIGURATION -*/
+	
 	//alternate function 
 	PAADDR = 0x02;				//<-- write cycle into PAADDR (0x0FDO)
 	PACTL = 0x00;				//<-- disable dem' alternative functions bra'
@@ -53,5 +54,3 @@ void main(void) //!FLAG#1 - comment out if function requires return 0;
 	//return 0; //!FLAG#1 - comment out if int main(void) is not in use
 }
 /*-- 			END MAIN FUNCTION 			--*/
-
-//collaborate via https://github.com/redrivercollege-eet
