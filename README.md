@@ -1,4 +1,4 @@
-Branch Structure
+Repo Branch Structure
 ---
 <b>[development]</b> - contains nightly builds <i>(not for marking) </i>	
 <b>[experimental]</b> - sandbox for experimental tests / prooving ground <i>(for review and demonstration purpose)</i>	
