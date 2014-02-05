@@ -1,9 +1,7 @@
 Branch Structure
 ---
 development: contains nightly builds (not for marking) 
-
 experimental: sandbox for experimental tests / prooving ground (for review and demonstration purpose)
-
 master: stable and final release (for marking)
 
 Course Resources
