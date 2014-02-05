@@ -1,9 +1,13 @@
 Branch Structure
 ---
-development: contains nightly builds (not for marking) 
-experimental: sandbox for experimental tests / prooving ground (for review and demonstration purpose)
-master: stable and final release (for marking)
+<b>[development]</b> - contains nightly builds <i>(not for marking) </i>	
+<b>[experimental]</b> - sandbox for experimental tests / prooving ground <i>(for review and demonstration purpose)</i>	
+<b>[master]</b> - stable and final release <i>(for marking)</i>
 
 Course Resources
 ---
+<b>Full course package:</b>	
 https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2
+
+<b>Answers to Package Questions</b>	
+https://github.com/glennlopez/Prog-2000/wiki
