@@ -1,8 +1,8 @@
 Repo Branch Structure
 ---
-1. <b>[development]</b> - contains nightly builds <i>(not for marking) </i> 
-2. <b>[experimental]</b> - sandbox for experimental tests / prooving ground <i>(for review and demonstration purpose)</i>
-3. <b>[master]</b> - stable and final release <i>(for marking)</i>
+1. <b>[development]</b> - contains most recent edits <i>(not for marking) </i> 
+2. <b>[master]</b> - stable and final release <i>(for marking)</i>
+3. <b>[experimental]</b> - prooving ground for experamental builds after commiting to master <i>(for review and demonstration purpose)</i>
 
 Course Resources
 ---
