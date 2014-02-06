@@ -4,7 +4,7 @@ Repo Branch Structure
 2. <b>[master]</b> - stable and final release <i>(for marking)</i>
 3. <b>[experimental]</b> - prooving ground for experamental builds after commiting to master <i>(for review and demonstration purpose)</i>
 
-Course Resources
+Red River College Intro to Microcontroller & C Programming
 ---
 <b>Full course package:</b>	
 <ul>
@@ -17,7 +17,9 @@ Course Resources
 <li>http://www.programiz.com/c-programming/c-keywords-identifier</li>
 </ul>
 
-<b>Answers to Package Questions:</b>
+Answers to Package Questions
+---
+Answers to questions are available to everyone to prevent unfair advantage to students who already have the assignment answers from the previous class (last years class). It is also used to get Red River College instructors to stop being lazy (recycling old course material). An Education Institution shouldnt have the same mechanics as a Manufacturing Plant. 
 <ul>
 <li>https://github.com/glennlopez/Prog-2000/wiki</li>
 </ul>
