@@ -7,11 +7,17 @@ Repo Branch Structure
 Course Resources
 ---
 <b>Full course package:</b>	
-https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2
+<ul>
+<li>https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2</li>
+</ul>
 
 <b>Operators in C++ and C:</b>
-http://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B 
-| http://www.programiz.com/c-programming/c-keywords-identifier
+<ul>
+<li>http://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B</li>
+<li>http://www.programiz.com/c-programming/c-keywords-identifier</li>
+</ul>
 
-<b>Answers to Package Questions:</b>	
-https://github.com/glennlopez/Prog-2000/wiki
+<b>Answers to Package Questions:</b>
+<ul>
+<li>https://github.com/glennlopez/Prog-2000/wiki</li>
+</ul>
