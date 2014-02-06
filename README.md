@@ -11,6 +11,7 @@ https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f
 
 <b>Operators in C and C++</b>
 http://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B
+http://www.programiz.com/c-programming/c-keywords-identifier
 
 <b>Answers to Package Questions</b>	
 https://github.com/glennlopez/Prog-2000/wiki
