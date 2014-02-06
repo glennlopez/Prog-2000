@@ -9,5 +9,8 @@ Course Resources
 <b>Full course package:</b>	
 https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2
 
+<b>Operators in C and C++</b>
+http://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B
+
 <b>Answers to Package Questions</b>	
 https://github.com/glennlopez/Prog-2000/wiki
