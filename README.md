@@ -19,7 +19,6 @@ Red River College Intro to Microcontroller & C Programming
 
 Answers to Package Questions
 ---
-Answers to questions are available to everyone to prevent unfair advantage to students who already have the assignment answers from the previous class (last years class). It is also used to get Red River College instructors to stop being lazy (recycling old course material). An Education Institution shouldnt have the same mechanics as a Manufacturing Plant. 
 <ul>
 <li>https://github.com/glennlopez/Prog-2000/wiki</li>
 </ul>
