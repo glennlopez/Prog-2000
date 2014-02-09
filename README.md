@@ -21,7 +21,7 @@ Answers to Package Questions
 ---
 <ul>
 <li>https://github.com/glennlopez/Prog-2000/wiki</li>
-<LI?https://www.evernote.com/shard/s4/sh/a7460129-04ed-407b-a0b2-accb499fbed6/6537fe2125bfb18b8af7443a6c86db5b</li>
+<li>https://www.evernote.com/shard/s4/sh/a7460129-04ed-407b-a0b2-accb499fbed6/6537fe2125bfb18b8af7443a6c86db5b</li>
 </ul>
 
 - The best way to kill a childs natural curiosity is to send him to school. 
