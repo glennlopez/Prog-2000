@@ -1,9 +1,8 @@
 Repo Branch Structure
 ---
-1. <b>[starter]</b> - forkable starter pack for studens <i>(for forking) </i> 
-2. <b>[development]</b> - contains most recent builds <i>(not for marking) </i> 
-3. <b>[master]</b> - stable and final release <i>(for marking)</i>
-4. <b>[experimental]</b> - prooving ground for experamental builds after commiting to master <i>(for review and demonstration purpose)</i>
+1. <b>[development]</b> - contains most recent builds <i>(not for marking) </i> 
+2. <b>[master]</b> - stable and final release <i>(for marking)</i>
+3. <b>[experimental]</b> - prooving ground for experamental builds after commiting to master <i>(for review and demonstration purpose)</i>
 
 Tabulation Structure
 ---
@@ -24,3 +23,11 @@ Intro to Microcontroller and C programming Course Resources
 Lab Results
 ---
 The videos below show what your Zilog is suppose to do after uploading the binary to the uC 
+<ul>
+<li><a href="#">Lab 2</a></li>
+<li><a href="#">Lab 3</a></li>
+<li><a href="#">Lab 4</a></li>
+<li><a href="#">Lab 5</a></li>
+<li><a href="#">Lab 6</a></li>
+<li><a href="#">Lab 7</a></li>
+</ul>
