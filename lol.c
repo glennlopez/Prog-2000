@@ -13,5 +13,5 @@ else{
 /*-- 
 I know C isn't object oriented, 
 and I don't know the alternatives to structs/classes, 
-but hey, what am I but a lowly C++ programmer...
+but hey, what am I but a lowly C++ programmer... <_<
 --*/
