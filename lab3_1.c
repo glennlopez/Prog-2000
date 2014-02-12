@@ -17,9 +17,9 @@ Github page:		https://github.com/glennlopez/Prog-2000/blob/master/lab3_1.c
 
 
 /*-- 			START HEADER FILES 			--*/
- //#include <stdio.h>								//<-- Standard Input and Output library for C
+ //#include <stdio.h>							//<-- Standard Input and Output library for C
  #include <ez8.h>								//<-- library for int1erfacing with Z8
- //#include<myFunctions.h>							//<-- library for future subroutines and identifiers
+ //#include<myFunctions.h>						//<-- library for future subroutines and identifiers
 /*-- 			END HEADER FILES 			--*/
 
 
@@ -28,8 +28,8 @@ Github page:		https://github.com/glennlopez/Prog-2000/blob/master/lab3_1.c
  //void main(void) //!FLAG#1 - comment out if function requires return 0;	
  {
 	//variable declarations and assignments;
-	unsigned char leds = 0x02; 						//<-- makes 0x02 = leds an unsigned char
-	unsigned char push_button;						//<-- makes 0x00 = push_button an unsigned char
+	unsigned char leds = 0x02; 					//<-- makes 0x02 = leds an unsigned char
+	unsigned char push_button;					//<-- makes 0x00 = push_button an unsigned char
 	push_button = 0x00;							//<-- makes push_button 0 | used as a var container
 			
 	/*- PORT A CONFIGURATION -*/
@@ -62,11 +62,11 @@ Github page:		https://github.com/glennlopez/Prog-2000/blob/master/lab3_1.c
 		
 	/*-- PUSH BUTTON --*/
 	 PAOUT = leds;
-	 while (1)								//<-- loops forever till power is off
+	 while (1)									//<-- loops forever till power is off
 	 {
 		push_button = PCIN;						//<-- write cycle: makes push_button have variables belonging to PCIN		
-		push_button = push_button & 0x01;				//<-- adds masking to new push_button var 
-		if(push_button == 0x00)						//<-- true if push_button is equal to 0x00
+		push_button = push_button & 0x01;		//<-- adds masking to new push_button var 
+		if(push_button == 0x00)					//<-- true if push_button is equal to 0x00
 		{
 			leds=leds^0x07;						//<-- sets an exclusive or operator to switch Red & Green OR just Yellow
 			PAOUT=leds;
