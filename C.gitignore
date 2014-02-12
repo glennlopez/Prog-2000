@@ -25,4 +25,5 @@
 # Zilog Project Files
 *.zdsproj
 *.wsp
-
+*.lst
+*.obj

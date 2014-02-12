@@ -11,7 +11,7 @@ Programmer:			Glenn Lopez
 Initial Commit:		2014-02-06 09:46
 Class:				E12
 Description:		
-Github page:		
+Github page:		https://github.com/glennlopez/Prog-2000/blob/master/lab4_1.c
 	(visit the link above for the latest version history & revision)		
 ---------------------------------------------------------------------------------*/
 
