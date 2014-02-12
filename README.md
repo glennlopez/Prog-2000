@@ -8,22 +8,12 @@ Tabulation Structure
 ---
 <img src="http://i.stack.imgur.com/ji9pn.gif" />
 
-Red River College Intro to Microcontroller & C Programming
----
-<b>Full course package:</b>	
-<ul>
-<li>https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2</li>
-</ul>
-
-<b>Operators in C++ and C:</b>
-<ul>
-<li>http://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B</li>
-<li>http://www.programiz.com/c-programming/c-keywords-identifier</li>
-</ul>
-
-Answers to Package Questions
+Course Resources
 ---
 <ul>
-<li>https://github.com/glennlopez/Prog-2000/wiki</li>
+<li><a href="https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2">Full Course Package PDF</a></li>
+<li><a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions</a></li>
+<li><a href="http://www.programiz.com/c-programming/">Intro to C Programming</a></li>
+<li><a href="http://www.programiz.com/c-programming/">Zilog Datasheet</a></li>
 <!-- <li>https://www.evernote.com/shard/s4/sh/a7460129-04ed-407b-a0b2-accb499fbed6/6537fe2125bfb18b8af7443a6c86db5b</li> -->
 </ul>
