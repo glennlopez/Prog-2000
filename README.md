@@ -8,9 +8,10 @@ Tabulation Structure
 ---
 <img src="http://i.stack.imgur.com/ji9pn.gif" />
 
-Course Resources
+Intro to Microcontroller and C programming Course Resources
 ---
 <ul>
+<li><a href="http://connect.rrc.ca/DEEAM/ELEEF/PROG-2000/default.aspx">Red River College Course Sharepoint</a>
 <li><a href="https://www.evernote.com/shard/s4/sh/8fddf4dd-de95-44fa-878f-631e9197d602/6ce49f210a5c494d03052d8ea1c1ccc2">Full Course Package PDF</a></li>
 <li><a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions</a></li>
 <li><a href="http://www.programiz.com/c-programming/">Intro to C Programming</a></li>
