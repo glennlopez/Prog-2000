@@ -4,6 +4,10 @@ Repo Branch Structure
 2. <b>[master]</b> - stable and final release <i>(for marking)</i>
 3. <b>[experimental]</b> - prooving ground for experamental builds after commiting to master <i>(for review and demonstration purpose)</i>
 
+Tabulation Preferance
+---
+<img src="http://i.stack.imgur.com/ji9pn.gif" />
+
 Red River College Intro to Microcontroller & C Programming
 ---
 <b>Full course package:</b>	
@@ -21,5 +25,5 @@ Answers to Package Questions
 ---
 <ul>
 <li>https://github.com/glennlopez/Prog-2000/wiki</li>
-<li>https://www.evernote.com/shard/s4/sh/a7460129-04ed-407b-a0b2-accb499fbed6/6537fe2125bfb18b8af7443a6c86db5b</li>
+<!-- <li>https://www.evernote.com/shard/s4/sh/a7460129-04ed-407b-a0b2-accb499fbed6/6537fe2125bfb18b8af7443a6c86db5b</li> -->
 </ul>
