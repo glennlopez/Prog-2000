@@ -21,6 +21,7 @@ Github page:		https://github.com/glennlopez/Prog-2000/blob/master/lab3_1.c
  #include <ez8.h>								//<-- library for int1erfacing with Z8
  //#include<myFunctions.h>						//<-- library for future subroutines and identifiers
 /*-- 			END HEADER FILES 			--*/
+	
 
 
 /*-- 			START MAIN FUNCTION 			--*/ 
