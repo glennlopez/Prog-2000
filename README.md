@@ -1,3 +1,7 @@
+What is Prog-2000
+---
+Red River College seems to be far behind in terms of how technology is used in a classroom enviroment (how ironic). So I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to prevent lazy instructors from using the same content over and over again. Some instructors at RRC don't bother to get out of thier comfort zone to try new ways of delivering content. It's that reason alone that prevents Github from being introduced into the program.
+
 Repo Branch Structure
 ---
 1. <b>[development]</b> - contains most recent builds <i>(not for marking) </i> 
