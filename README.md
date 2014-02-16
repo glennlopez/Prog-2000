@@ -30,7 +30,7 @@ Intro to Microcontroller and C programming Course Resources
 <!-- <li>https://www.evernote.com/shard/s4/sh/a7460129-04ed-407b-a0b2-accb499fbed6/6537fe2125bfb18b8af7443a6c86db5b</li> -->
 </ul>
 
-Lab Results
+Videos of Lab Results
 ---
 The videos below show what your Zilog is suppose to do after uploading the binary to the uC 
 <ul>
