@@ -1,7 +1,9 @@
 What is Prog-2000
 ---
 Red River College seems to be far behind in terms of how technology is used in a classroom enviroment (how ironic). So I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to prevent lazy instructors from using the same content over and over again. Some instructors at RRC don't bother to get out of thier comfort zone to try new ways of delivering content. It's that reason alone that prevents Github from being introduced into the program. <br /><br />
-<b>Ever wondered why RRC doesn't post previous exams as practice exams... its becuase they are lazy and like to recycle exams, its why UoM won't accredit students who came from RRC.</b>
+<b>Ever wondered why RRC doesn't post previous exams as practice exams... its becuase they are lazy and like to recycle exams, its why UoM won't accredit students who came from RRC.</b><br/>
+You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions</a> here. Exam questions will be provided as soon as I get access to one.
+
 
 Repo Branch Structure
 ---
