@@ -1,13 +1,16 @@
 What is Prog-2000
 ---
-Red River College seems to be far behind in terms of how technology is used in a classroom enviroment (how ironic). So I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to prevent lazy instructors from using the same content over and over again. Some instructors at RRC don't bother to get out of thier comfort zone to try new ways of delivering content. It's that reason alone that prevents Github from being introduced into the program. <br /><br />
-<b>Ever wondered why RRC doesn't post previous exams as practice exams... its becuase they are lazy and like to recycle exams, its why UoM won't accredit students who came from RRC.</b>
+Red River College seems to be far behind in terms of how technology is used in a classroom enviroment. So I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to prevent unfair advantage over year 1 students who don't know anyone in year 2 that could give them old course material. 
+
+
+You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions</a> here. Exam questions will be provided as soon as I get access to one (No logical reason exists as to why students should not have access to previous exams online to use as a practice exams... unless they re-use the same exam question out of lazyness).
+
 
 Repo Branch Structure
 ---
 1. <b>[development]</b> - contains most recent builds <i>(not for marking) </i> 
 2. <b>[master]</b> - stable and final release <i>(for marking)</i>
-3. <b>[experimental]</b> - prooving ground for experamental builds after commiting to master <i>(for review and demonstration purpose)</i>
+3. <b>[gh-pages]</b> - userend html portal for the project <i>(for people who don't understand github)</i>
 <br />
 <a href="https://scan.coverity.com/projects/1314">
   <img alt="Coverity Scan Build Status"
