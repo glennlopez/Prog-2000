@@ -1,6 +1,8 @@
 What is Prog-2000
 ---
-Red River College seems to be far behind in terms of how technology is used in a classroom enviroment. So I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to prevent unfair advantage over year 1 students who don't know anyone in year 2 that could give them old course material. 
+Red River College seems to be far behind in terms of how technology is used in a classroom enviroment. So I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to help students strugling with programming. 
+
+I give all RRC students full permision to use the work I have in this github page (prog-2000) without giving me any credit - take it as your own (from the moment you copy and paste it to your computer it is 100% your work!) This should prevent instructors from crying and saying you plagiarised.
 
 
 You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. Practice Midterm Exam will be provided as soon as I have time (the practice midterm was duplicated from 2013 midterm exam).
