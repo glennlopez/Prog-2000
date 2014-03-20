@@ -29,8 +29,8 @@ Github page:		https://github.com/glennlopez/Prog-2000/blob/master/lab3_1.c
  //void main(void) //!FLAG#1 - comment out if function requires return 0;	
  {
 	//variable declarations and assignments;
-	unsigned char leds = 0x02; 			//<-- makes 0x02 = leds an unsigned char
-	unsigned char push_button;			//<-- makes 0x00 = push_button an unsigned char
+	unsigned char leds = 0x02; 		//<-- makes 0x02 = leds an unsigned char
+	unsigned char push_button;		//<-- makes 0x00 = push_button an unsigned char
 	push_button = 0x00;				//<-- makes push_button 0 | used as a var container
 			
 	/*- PORT A CONFIGURATION -*/
