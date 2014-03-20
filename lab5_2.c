@@ -6,11 +6,11 @@
 	C Programming and Intro to Microcontrollers
 			Intructor: Denis Korabelnikov
 
-Program:			Lab 5.1
+Program:			Lab 5.2
 Programmer:			Glenn Lopez
 Initial Commit:		2014-03-17 11:08
 Class:				E12
-Description:		
+Description:		Binary Counter - Using Loops
 Github page:		https://github.com/glennlopez/Prog-2000/	
 ---------------------------------------------------------------------------------*/
 
@@ -20,26 +20,31 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 /*-- 			END HEADER FILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
+void main()
+ {
+ unsigned int delay;
+ unsigned char count=0;
 
-void main(void)
-{
-	char count; 							// Declare variables
-	unsigned long int delay;
-	PEADDR = 0x01; 							// Initialize PORT E as output
-	PECTL = 0x00;
-	count = 1; 								// Initialize count;
-	while(1)
-	 {
-		PEOUT=count; 						// Write count to LEDs
-		for(
-			delay=200000; 					// delay for 2 seconds
-			delay>0;
-			delay--
-			);
-			count++; 						//Increment count
-		if(count>200) //end of count?
-		count=1; //Yes: reset count to 0
-	 }//end while
- return;
-}//end main
+ //initialize 8 bit port E0(pin8)-E7(pin0)
+ PEADDR=0x02;//alt function
+ PECTL=0x00;//no alt function
+ PEADDR=0x01;//data dir
+ PECTL=0x00;//set all 8 bits to O/P
+ PEADDR=0x03;//O/P control function
+ PECTL=0x00;//set to push pull ratherthan open drain
+ PEADDR=0x00;//prevents inadvertent changes to sub registers
+
+ //Read Port
+ while(1)
+     {
+	    PEOUT=count;
+	    count++;
+	    for
+	    (
+	    	delay=0xffff;
+	    	delay>0;delay--
+	    );//do nothing if the condition is true
+     }
+ return;//done!
+ }
 /*-- 			END MAIN FUNCTION 			--*/
