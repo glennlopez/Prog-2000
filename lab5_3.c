@@ -20,5 +20,21 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 /*-- 			END HEADER FILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
-
+void main(void) 
+{ 
+ char count; //declare variables 
+ unsigned long int delay; 
+ PEADDR = 0x01; // Initialize PORT E as output 
+ PECTL = 0x00; 
+ count = 1; // Initialize count; 
+ while(1) 
+ { 
+ PEOUT=count; //Write count to LEDs 
+ for(delay=200000;delay>0;delay--); //Delay 2 seconds (approx) 
+ count++; //Increment count 
+ if(count>200) //end of count? 
+ count=1; //Yes: reset count to 0 
+ }//end while 
+ return; 
+}//end main 
 /*-- 			END MAIN FUNCTION 			--*/

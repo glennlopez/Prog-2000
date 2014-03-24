@@ -15,38 +15,37 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 ---------------------------------------------------------------------------------*/
 
 /*-- 			START HEADER FILES 			--*/
- #include <stdio.h>						//<-- Standard Input and Output library for C
- #include <ez8.h>						//<-- library for int1erfacing with Z8
-/*-- 			END HEADER FILES 			--*/
+ #include <stdio.h>			//<-- Standard Input and Output library for C
+ #include <ez8.h>			//<-- library for int1erfacing with Z8
+/*-- 			END HEADER F ILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
  void main()
-{
+ {
 	// variable declaration
 	 int val;
 
-	//initialize 8 bit port E0(pin8)-E7(pin0)
-	 PEADDR = 0x02; 					//<-- alt function
-	 PECTL = 0x00; 						//<-- no alt function
-	 PEADDR = 0x01; 					//<-- data dir
-	 PECTL = 0x00; 						//<-- set all 8 bits to O/P
-	 PEADDR = 0x03; 					//<-- O/P control function
-	 PECTL = 0x00; 						//<-- set to push pull rather than open drain
-	 PEADDR = 0x00; 					//<-- prevents inadvertent changes to sub registers
+	/*-- Initialize Port E --*/
+	 PEADDR = 0x02; 		//<-- alt function
+	 PECTL = 0x00; 			//<-- no alt function
+	 PEADDR = 0x01; 		//<-- data dir
+	 PECTL = 0x00; 			//<-- set all 8 bits to O/P
+	 PEADDR = 0x03; 		//<-- O/P control function
+	 PECTL = 0x00; 			//<-- set to push pull rather than open drain
+	 PEADDR = 0x00; 		//<-- prevents inadvertent changes to sub registers
 	
-	//initialize 8 bit port E0(pin8)-E7(pin0)
-	 PDADDR = 0x02; 					//<-- alt function
-	 PDCTL = 0x00; 						//<-- no alt function
-	 PDADDR = 0x01; 					//<-- data dir
-	 PDCTL = 0xFF; 						//<-- set all 8 bits to I/P
-	 PDADDR = 0x00; 					//<-- prevents inadvertent changes to sub registers
+	/*-- Initialize Port D --*/
+	 PDADDR = 0x02; 		//<-- alt function
+	 PDCTL = 0x00; 			//<-- no alt function
+	 PDADDR = 0x01; 		//<-- data dir
+	 PDCTL = 0xFF; 			//<-- set all 8 bits to I/P
+	 PDADDR = 0x00; 		//<-- prevents inadvertent changes to sub registers
 	
-	// Read Port D
 	while(1)
 		{
-		 val = PDIN;
-		 PEOUT = val; // display I/P from port D on Port E
-		} //end while
- return; // done!
-}
+		 val = PDIN;		//<-- display I/P from port D on Port E
+		 PEOUT = val; 		//<-- display I/P from port D on Port E
+		} 
+ return; 
+ }
 /*-- 			END MAIN FUNCTION 			--*/

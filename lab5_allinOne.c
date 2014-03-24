@@ -10,7 +10,7 @@ Program:			Lab 5.2
 Programmer:			Glenn Lopez
 Initial Commit:		2014-03-17 11:08
 Class:				E12
-Description:		Binary Counter - Using Loops
+Description:		This is Lab 5.1,5.2,5.3 put together using simple function calls
 Github page:		https://github.com/glennlopez/Prog-2000/	
 ---------------------------------------------------------------------------------*/
 
@@ -20,6 +20,12 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 /*-- 			END HEADER FILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
+ // Port Configuration
+ // 
+ 
+/*-- 			END MAIN FUNCTION 			--*/
+
+/*-- 			START LAB 5_2 FUNCTION 		--*/
  void main()
  {
  /*-- Initialize variable containers --*/
@@ -48,4 +54,3 @@ Github page:		https://github.com/glennlopez/Prog-2000/
      }
   return;
  }
-/*-- 			END MAIN FUNCTION 			--*/
