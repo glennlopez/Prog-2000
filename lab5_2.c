@@ -6,17 +6,17 @@
 	C Programming and Intro to Microcontrollers
 			Intructor: Denis Korabelnikov
 
-Program:			Lab 5.2
-Programmer:			Glenn Lopez
-Initial Commit:		2014-03-17 11:08
-Class:				E12
-Description:		Binary Counter - Using Loops
-Github page:		https://github.com/glennlopez/Prog-2000/	
+Program:			      Lab 5.2
+Programmer:			    Glenn Lopez
+Initial Commit:		  2014-03-17 11:08
+Class:				      E12
+Description:		    Light Ladder
+Github page:		    https://github.com/glennlopez/Prog-2000/	
 ---------------------------------------------------------------------------------*/
 
 /*-- 			START HEADER FILES 			--*/
- #include <stdio.h>		//<-- Standard Input and Output library for C
- #include <ez8.h>		//<-- library for int1erfacing with Z8
+ #include <stdio.h>		    //<-- Standard Input and Output library for C
+ #include <ez8.h>		      //<-- library for int1erfacing with Z8
 /*-- 			END HEADER FILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
@@ -28,11 +28,14 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 
  /*-- Initialize Port E --*/
   PEADDR=0x02;			//<-- alt function
-  PECTL=0x00;			//<-- no alt function
+  PECTL=0x00;			  //<-- no alt function
+
   PEADDR=0x01;			//<-- data dir
-  PECTL=0x00;			//<-- set all 8 bits to O/P
+  PECTL=0x00;			  //<-- set all 8 bits to O/P
+
   PEADDR=0x03;			//<-- O/P control function
-  PECTL=0x00;			//<-- set to push pull 
+  PECTL=0x00;			  //<-- set to push pull 
+  
   PEADDR=0x00;			//<-- prevents inadvertent changes to sub registers
 
   while(1)

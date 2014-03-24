@@ -6,35 +6,52 @@
 	C Programming and Intro to Microcontrollers
 			Intructor: Denis Korabelnikov
 
-Program:			Lab 5.1
+Program:			Lab 5.3
 Programmer:			Glenn Lopez
 Initial Commit:		2014-03-17 11:08
 Class:				E12
-Description:		Used to test hardware and wiring
+Description:		Binary Counter with conditional Delay
 Github page:		https://github.com/glennlopez/Prog-2000/	
 ---------------------------------------------------------------------------------*/
 
 /*-- 			START HEADER FILES 			--*/
- #include <stdio.h>						//<-- Standard Input and Output library for C
- #include <ez8.h>						//<-- library for int1erfacing with Z8
+ //#include <stdio.h>				//<-- Standard Input and Output library for C
+ #include <ez8.h>					//<-- library for int1erfacing with Z8
 /*-- 			END HEADER FILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
-void main(void) 
-{ 
- char count; //declare variables 
- unsigned long int delay; 
- PEADDR = 0x01; // Initialize PORT E as output 
- PECTL = 0x00; 
- count = 1; // Initialize count; 
- while(1) 
- { 
- PEOUT=count; //Write count to LEDs 
- for(delay=200000;delay>0;delay--); //Delay 2 seconds (approx) 
- count++; //Increment count 
- if(count>200) //end of count? 
- count=1; //Yes: reset count to 0 
- }//end while 
- return; 
-}//end main 
+ void main (void)
+ {
+	unsigned int delay;
+
+	/*-- Port E Config --*/
+	PEADDR = 0x02;					//<-- Alt address
+	PECTL = 0x00;					//<-- Disable alt function
+
+	PEADDR = 0x01;					//<-- Data address
+	PECTL = 0x00;					//<-- Makes all bits as o/p
+
+	PEADDR = 0x03;					//<-- Output Controll
+	PECTL = 0x00;					//<-- Set to PushPull
+
+	PEADDR = 0x00;					//<-- Prevents changes 
+	while (1)
+	{	
+		PEOUT = 0x01;				//<-- PEOUT logic 1
+			for 					 
+				(					 
+					delay = 1000; 	//<-- Delay 1000 ms
+					delay > 0;		//<-- if greater than 0
+					delay--			//<-- countdown
+				);					 
+								 
+		PEOUT = 0x00;				//<-- PEOUT logic 0 (set)
+			for 					 
+				(					
+				delay = 1000;		//<-- Delay 1000 ms
+				delay > 0;			//<-- if greater than 0
+				delay--				//<-- countdown
+				);					
+	}
+ }
 /*-- 			END MAIN FUNCTION 			--*/

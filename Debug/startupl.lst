@@ -1,4 +1,4 @@
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 20-Mar-14     14:10:08     page:   1
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     14:28:49     page:   1
 
 
 PC     Object              I  Line    Source 
@@ -53,7 +53,7 @@ PC     Object              I  Line    Source
                            A    28     //void main(void) //!FLAG#1 - comment out if f
 -----ERROR (401) Syntax error
                            A    29     {
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 20-Mar-14     14:10:08     page:   2
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     14:28:49     page:   2
 
 
 PC     Object              I  Line    Source C:\PROGRA~1\ZiLOG\ZDSII_~1.0\src\boot\common\startupl.asm
@@ -109,7 +109,7 @@ PC     Object              I  Line    Source C:\PROGRA~1\ZiLOG\ZDSII_~1.0\src\bo
                            A    57    			PCADDR = 0x01;					//<
 -----ERROR (401) Syntax error
                            A    58    			PCCTL = 0x01; 					//<
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 20-Mar-14     14:10:08     page:   3
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     14:28:49     page:   3
 
 
 PC     Object              I  Line    Source C:\PROGRA~1\ZiLOG\ZDSII_~1.0\src\boot\common\startupl.asm

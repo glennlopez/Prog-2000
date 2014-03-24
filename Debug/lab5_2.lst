@@ -1,4 +1,4 @@
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 23-Mar-14     21:10:46     page:   1
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   1
 
 
 PC     Object              I  Line    Source 
@@ -54,7 +54,7 @@ PC     Object              I  Line    Source
                            A    50    .class 8
                            A    51    .type 2
                            A    52    .type 0
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 23-Mar-14     21:10:46     page:   2
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   2
 
 
 PC     Object              I  Line    Source lab5_2.src
@@ -110,7 +110,7 @@ PC     Object              I  Line    Source lab5_2.src
                            A   102    .endrec "fmt_type"
                            A   103    .begrec "flt_info",12
                            A   104    .define "flags"
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 23-Mar-14     21:10:46     page:   3
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   3
 
 
 PC     Object              I  Line    Source lab5_2.src
@@ -163,7 +163,7 @@ PC     Object              I  Line    Source lab5_2.src
                            A   153    ;   22	/*-- 			START MAIN FUNCTION 	                           A   154    ;   23	 void main()
                            A   155    ;   24	 {
                            A   156    .define "delay"
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 23-Mar-14     21:10:46     page:   4
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   4
 
 
 PC     Object              I  Line    Source lab5_2.src
@@ -219,7 +219,7 @@ PC     Object              I  Line    Source lab5_2.src
                            A   206    .line 41
 000024 2E                  A   207    	INC	R2
                            A   208    ;   42		    for
-Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 23-Mar-14     21:10:46     page:   5
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   5
 
 
 PC     Object              I  Line    Source lab5_2.src
