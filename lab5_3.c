@@ -40,9 +40,9 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 		PEOUT = 0x01;				//<-- PEOUT logic 1
 			for 					 
 				(					 
-				delay = 1000; 	//<-- Delay 1000 ms
-				delay > 0;	//<-- if greater than 0
-				delay--		//<-- countdown
+				delay = 1000; 		//<-- Delay 1000 ms
+				delay > 0;		//<-- if greater than 0
+				delay--			//<-- countdown
 				);					 
 								 
 		PEOUT = 0x00;				//<-- PEOUT logic 0 (set)
