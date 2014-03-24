@@ -22,36 +22,40 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 /*-- 			START MAIN FUNCTION 		--*/
  void main (void)
  {
-	unsigned int delay;
-
-	/*-- Port E Config --*/
-	PEADDR = 0x02;					//<-- Alt address
-	PECTL = 0x00;					//<-- Disable alt function
-
-	PEADDR = 0x01;					//<-- Data address
-	PECTL = 0x00;					//<-- Makes all bits as o/p
-
-	PEADDR = 0x03;					//<-- Output Controll
-	PECTL = 0x00;					//<-- Set to PushPull
-
-	PEADDR = 0x00;					//<-- Prevents changes 
-	while (1)
-	{	
-		PEOUT = 0x01;				//<-- PEOUT logic 1
-			for 					 
-				(					 
-				delay = 1000; 		//<-- Delay 1000 ms
-				delay > 0;		//<-- if greater than 0
-				delay--			//<-- countdown
-				);					 
-								 
-		PEOUT = 0x00;				//<-- PEOUT logic 0 (set)
-			for 					 
-				(					
-				delay = 1000;		//<-- Delay 1000 ms
-				delay > 0;		//<-- if greater than 0
-				delay--			//<-- countdown
-				);					
-	}
+ 	long int delay;
+ 	unsigned char val;
+ 	unsinged char count = 0;
+ 	
+ 	PEADDR = 0X02;
+ 	PECTL = 0X00;
+ 	PEADDR = 0X01;
+ 	PECTL = 0X00;
+ 	PEADDR = 0X03;
+ 	PECTL = 0X00;
+ 	PEADDR = 0X00;
+ 	
+ 	PDADDR = 0X02;
+ 	PDCTL = 0X00;
+ 	PDADDR = 0X01;
+ 	PDCTL = 0XFF;
+ 	PDADDR = 0X00;
+ 	
+ 	while(1)
+ 	{
+ 		if ((val == 's') && (count > 0x14))
+ 		{
+ 			PEOUT = 's';
+ 		}
+ 		else
+ 		{
+ 			PEOUT = count;
+ 			for 
+ 			(
+ 				delay = 375000;
+ 				delay > 0; 
+ 				delay--
+ 			);
+ 			count++;
+ 		}
  }
 /*-- 			END MAIN FUNCTION 			--*/
