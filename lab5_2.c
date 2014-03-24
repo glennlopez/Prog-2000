@@ -38,15 +38,15 @@ Github page:		https://github.com/glennlopez/Prog-2000/
   
   PEADDR=0x00;				//<-- prevents inadvertent changes to sub registers
 
-  while(1)
+  while(1)				//<-- execute commands while true
      {
 	    PEOUT=count;		//<-- makes PEOUT take the value of the value of count
 	    count++;			//<-- increments count for every...
 	    for
 	    (
-	    	delay=0xffff;		//<-- start at ffff
-	    	delay>0;		//<-- count down while delay is greater than 0
-	    	delay--			//<-- counts down the value
+	    	delay=0xffff;		//<-- for starting at ffff
+	    	delay>0;		//<-- for delay greater than 0
+	    	delay--			//<-- for decrementing delay
 	    );
      }
   return;				//<-- terminate function and return function call
