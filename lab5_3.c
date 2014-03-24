@@ -6,17 +6,17 @@
 	C Programming and Intro to Microcontrollers
 			Intructor: Denis Korabelnikov
 
-Program:			Lab 5.3
-Programmer:			Glenn Lopez
+Program:		Lab 5.3
+Programmer:		Glenn Lopez
 Initial Commit:		2014-03-17 11:08
-Class:				E12
+Class:			E12
 Description:		Binary Counter with conditional Delay
 Github page:		https://github.com/glennlopez/Prog-2000/	
 ---------------------------------------------------------------------------------*/
 
 /*-- 			START HEADER FILES 			--*/
  //#include <stdio.h>				//<-- Standard Input and Output library for C
- #include <ez8.h>					//<-- library for int1erfacing with Z8
+ #include <ez8.h>				//<-- library for int1erfacing with Z8
 /*-- 			END HEADER FILES 			--*/
 
 /*-- 			START MAIN FUNCTION 		--*/
@@ -40,17 +40,17 @@ Github page:		https://github.com/glennlopez/Prog-2000/
 		PEOUT = 0x01;				//<-- PEOUT logic 1
 			for 					 
 				(					 
-					delay = 1000; 	//<-- Delay 1000 ms
-					delay > 0;		//<-- if greater than 0
-					delay--			//<-- countdown
+				delay = 1000; 	//<-- Delay 1000 ms
+				delay > 0;	//<-- if greater than 0
+				delay--		//<-- countdown
 				);					 
 								 
 		PEOUT = 0x00;				//<-- PEOUT logic 0 (set)
 			for 					 
 				(					
 				delay = 1000;		//<-- Delay 1000 ms
-				delay > 0;			//<-- if greater than 0
-				delay--				//<-- countdown
+				delay > 0;		//<-- if greater than 0
+				delay--			//<-- countdown
 				);					
 	}
  }
