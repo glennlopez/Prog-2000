@@ -1,0 +1,255 @@
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   1
+
+
+PC     Object              I  Line    Source 
+                           A     1    ; Zilog Z8 Encore! ANSI C Compiler Release 3.62
+                           A     2    ; -nolocalcse -optsize -fastcall -const=RAM -mo
+                           A     3    ; -nooptlink -regvar -reduceopt -debug -norevaa
+                           A     4    ; -alias 
+                           A     5    	DEFINE lab5_2_TEXT,SPACE=ROM
+                           A     6    	FILE	"..\LAB5_2.C"
+                           A     7    .debug "C"
+                           A     8    	SEGMENT ROM_DATA
+                           A     9    
+                           A    10    
+                           A    11    ;**************************** _main ***********
+                           A    12    ;Name                         Addr/Register   S
+                           A    13    ;count                                   R2    
+                           A    14    ;delay                                  RR0    
+                           A    15    
+                           A    16    
+                           A    17    ; Aggregate Stack Size: 0 (words)
+                           A    18    
+                           A    19    
+                           A    20    	.FRAME _n_main,?_n_main,RDATA
+                           A    21    	.FRAME _f_main,?_f_main,EDATA
+                           A    22    	SEGMENT lab5_2_TEXT
+                           A    23    .begrec "fmt_type",16
+                           A    24    .define "status"
+                           A    25    .value 0
+                           A    26    .class 8
+                           A    27    .type 12
+                           A    28    .type 0
+                           A    29    .endef
+                           A    30    .define "flags"
+                           A    31    .value 1
+                           A    32    .class 8
+                           A    33    .type 12
+                           A    34    .type 0
+                           A    35    .endef
+                           A    36    .define "size"
+                           A    37    .value 2
+                           A    38    .class 8
+                           A    39    .type 2
+                           A    40    .type 0
+                           A    41    .endef
+                           A    42    .define "chr"
+                           A    43    .value 3
+                           A    44    .class 8
+                           A    45    .type 2
+                           A    46    .type 0
+                           A    47    .endef
+                           A    48    .define "type"
+                           A    49    .value 4
+                           A    50    .class 8
+                           A    51    .type 2
+                           A    52    .type 0
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   2
+
+
+PC     Object              I  Line    Source lab5_2.src
+                           A    53    .endef
+                           A    54    .define "field_width"
+                           A    55    .value 5
+                           A    56    .class 8
+                           A    57    .type 2
+                           A    58    .type 0
+                           A    59    .endef
+                           A    60    .define "precision"
+                           A    61    .value 6
+                           A    62    .class 8
+                           A    63    .type 2
+                           A    64    .type 0
+                           A    65    .endef
+                           A    66    .define "set_begin"
+                           A    67    .value 7
+                           A    68    .class 8
+                           A    69    .type 162
+                           A    70    .type 0
+                           A    71    .endef
+                           A    72    .define "set_end"
+                           A    73    .value 9
+                           A    74    .class 8
+                           A    75    .type 162
+                           A    76    .type 0
+                           A    77    .endef
+                           A    78    .define "pad_whole"
+                           A    79    .value 11
+                           A    80    .class 8
+                           A    81    .type 12
+                           A    82    .type 0
+                           A    83    .endef
+                           A    84    .define "pad_pre_fract"
+                           A    85    .value 12
+                           A    86    .class 8
+                           A    87    .type 12
+                           A    88    .type 0
+                           A    89    .endef
+                           A    90    .define "pad_post_fract"
+                           A    91    .value 13
+                           A    92    .class 8
+                           A    93    .type 12
+                           A    94    .type 0
+                           A    95    .endef
+                           A    96    .define "pad_at"
+                           A    97    .value 14
+                           A    98    .class 8
+                           A    99    .type 162
+                           A   100    .type 0
+                           A   101    .endef
+                           A   102    .endrec "fmt_type"
+                           A   103    .begrec "flt_info",12
+                           A   104    .define "flags"
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   3
+
+
+PC     Object              I  Line    Source lab5_2.src
+                           A   105    .value 0
+                           A   106    .class 8
+                           A   107    .type 12
+                           A   108    .type 0
+                           A   109    .endef
+                           A   110    .define "exp"
+                           A   111    .value 1
+                           A   112    .class 8
+                           A   113    .type 2
+                           A   114    .type 0
+                           A   115    .endef
+                           A   116    .define "digits"
+                           A   117    .value 2
+                           A   118    .class 8
+                           A   119    .dim 10
+                           A   120    .type 108
+                           A   121    .type 0
+                           A   122    .endef
+                           A   123    .endrec "flt_info"
+000000                     A   124    _main:
+                           A   125    .define "_main"
+                           A   126    .value _main
+                           A   127    .class 2
+                           A   128    .type 65
+                           A   129    .type 0
+                           A   130    .endef
+                           A   131    .begfunc "main",24,"_main"
+                           A   132    ;    1	/*-------------------------------------
+                           A   133    ;    2	 ____  ____  _____  ___      ___   ___ 
+                           A   134    ;    3	(  _ \(  _ \(  _  )/ __) ___(__ \ / _ \
+                           A   135    ;    4	 )___/ )   / )(_)(( (_-.(___)/ _/( (_) 
+                           A   136    ;    5	(__)  (_)\_)(_____)\___/    (____)\___/
+                           A   137    ;    6		C Programming and Intro to Microcon
+                           A   138    ;    7				Intructor: Denis Korabelnik
+                           A   139    ;    8	
+                           A   140    ;    9	Program:			Lab 5.2
+                           A   141    ;   10	Programmer:			Glenn Lopez
+                           A   142    ;   11	Initial Commit:		2014-03-17 11:08
+                           A   143    ;   12	Class:				E12
+                           A   144    ;   13	Description:		Binary Counter - Us
+                           A   145    ;   14	Github page:		https://github.com/
+                           A   146    ;   15	---------------------------------------
+                           A   147    ;   16	
+                           A   148    ;   17	/*-- 			START HEADER FILES 		                           A   149    ;   18	 #include <stdio.h>		//<-- Standard 
+                           A   150    ;   19	 #include <ez8.h>		//<-- library f
+                           A   151    ;   20	/*-- 			END HEADER FILES 		                           A   152    ;   21	
+                           A   153    ;   22	/*-- 			START MAIN FUNCTION 	                           A   154    ;   23	 void main()
+                           A   155    ;   24	 {
+                           A   156    .define "delay"
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   4
+
+
+PC     Object              I  Line    Source lab5_2.src
+                           A   157    .class 4
+                           A   158    .reg 17
+                           A   159    .type 13
+                           A   160    .type 0
+                           A   161    .endef
+                           A   162    .define "count"
+                           A   163    .class 4
+                           A   164    .reg 3
+                           A   165    .type 12
+                           A   166    .type 0
+                           A   167    .endef
+000000 D6 0000             A   168    	CALL	__b_frameset00
+                           A   169    ;   25	 /*-- Initialize variable containers --
+                           A   170    ;   26	  unsigned int delay;
+                           A   171    ;   27	  unsigned char count=0;
+                           A   172    .line 27
+000003 B0E2                A   173    	CLR	R2
+                           A   174    ;   28	
+                           A   175    ;   29	 /*-- Initialize Port E --*/
+                           A   176    ;   30	  PEADDR=0x02;			//<-- alt funct
+                           A   177    .line 30
+000005 E9020FE0            A   178    	LDX	4064,#2
+                           A   179    ;   31	  PECTL=0x00;			//<-- no alt fu
+                           A   180    .line 31
+000009 E9000FE1            A   181    	LDX	4065,#-0
+                           A   182    ;   32	  PEADDR=0x01;			//<-- data dir
+                           A   183    .line 32
+00000D E9010FE0            A   184    	LDX	4064,#1
+                           A   185    ;   33	  PECTL=0x00;			//<-- set all 8
+                           A   186    .line 33
+000011 E9000FE1            A   187    	LDX	4065,#-0
+                           A   188    ;   34	  PEADDR=0x03;			//<-- O/P contr
+                           A   189    .line 34
+000015 E9030FE0            A   190    	LDX	4064,#3
+                           A   191    ;   35	  PECTL=0x00;			//<-- set to pu
+                           A   192    .line 35
+000019 E9000FE1            A   193    	LDX	4065,#-0
+                           A   194    ;   36	  PEADDR=0x00;			//<-- prevents 
+                           A   195    .line 36
+00001D E9000FE0            A   196    	LDX	4064,#-0
+                           A   197    ;   37	
+                           A   198    ;   38	  while(1)
+000021                     A   199    _1_L_5:
+                           A   200    .line 38
+                           A   201    ;   39	     {
+                           A   202    ;   40		    PEOUT=count;
+                           A   203    .line 40
+000021 942FE3              A   204    	LDX	4067,R2
+                           A   205    ;   41		    count++;
+                           A   206    .line 41
+000024 2E                  A   207    	INC	R2
+                           A   208    ;   42		    for
+Zilog Z8 Encore! Macro Assembler Version 2.52 (11010702) 24-Mar-14     13:57:27     page:   5
+
+
+PC     Object              I  Line    Source lab5_2.src
+                           A   209    ;   43		    (
+                           A   210    ;   44		    	delay=0xffff;
+                           A   211    .line 44
+000025 0CFF                A   212    	LD	R0,#255
+000027 1CFF                A   213    	LD	R1,#255
+                           A   214    ;   45		    	delay>0;
+000029                     A   215    _1_L_2:
+                           A   216    .line 45
+000029 A6E100              A   217    	CP	R1,#0
+00002C 1FA6E000            A   218    	CPC	R0,#-0
+000030 3B EF               A   219    	JR	ULE,_1_L_5
+                           A   220    ;   46		    	delay--
+                           A   221    ;   47		    );
+000032                     A   222    _1_L_3:
+                           A   223    .line 47
+000032 80E0                A   224    	DECW	RR0
+000034 8B F3               A   225    	JR	_1_L_2
+                           A   226    .endfunc "main",50,"_main"
+                           A   227    	XREF __b_framereset:ROM
+                           A   228    	XREF __b_frameset00:ROM
+                           A   229    	XDEF _main
+                           A   230    ;   48	     }
+                           A   231    ;   49	  return;
+                           A   232    ;   50	 }
+                           A   233    	END
+
+
+Errors: 0
+Warnings: 0
+Lines Assembled: 234
