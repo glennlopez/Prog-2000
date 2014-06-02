@@ -1,6 +1,6 @@
 What is Prog-2000
 ---
-I've created this github page for "Intro to Micro and C Programming" in hopes of not only teaching my self how to use github while learning C, but also to help minimize the unfair advantage students have to deal with as RRC seems to like to recycle the same lessons, exams, and assignments used within the course. (sharing is caring)
+I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C. I've released it into the Public Domain - that means you can do whatever you want with it. (Take credit of it, share, etc.. it's your work the moment you download it ie: its not plagiarizing if you use it even if you dont cite )
 
 You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. Practice Midterm Exam will be provided as soon as I have time (the practice midterm was duplicated from 2013 midterm exam).
 
