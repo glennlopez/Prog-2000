@@ -2,7 +2,7 @@ What is Prog-2000
 ---
 [![Stories in Ready](https://badge.waffle.io/glennlopez/prog-2000.png?label=ready&title=Ready)](https://waffle.io/glennlopez/prog-2000)
 
-I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C. I've released these files into the Public Domain - that means you can do whatever you want with it. (Take credit of it, share, etc.. it's your work the moment you download it). I've done this to prevent RRC instructors from becoming complacent with thier jobs (complacentcy is the number one reason your course lessons are so uninspired).
+I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C. I've released these files into the Public Domain - that means you can do whatever you want with it.
 
 You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me in person (Midterm exams are taken from multiple sources - I do not personally give you the exam copy, I just forward you to sources I trust who has them).
 
