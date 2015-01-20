@@ -1,8 +1,8 @@
 /*---------------------------------------------------------------------------------
- ____  ____  _____  ___      ___   ___    ___    ___  
-(  _ \(  _ \(  _  )/ __) ___(__ \ / _ \  / _ \  / _ \ 
+ ____  ____  _____  ___      ___   ___    ___    ___
+(  _ \(  _ \(  _  )/ __) ___(__ \ / _ \  / _ \  / _ \
  )___/ )   / )(_)(( (_-.(___)/ _/( (_) )( (_) )( (_) )
-(__)  (_)\_)(_____)\___/    (____)\___/  \___/  \___/ 
+(__)  (_)\_)(_____)\___/    (____)\___/  \___/  \___/
   C Programming and Intro to Microcontrollers
       Intructor: Denis Korabelnikov
 
@@ -11,7 +11,7 @@ Programmer:       Glenn Lopez
 Initial Commit:   2014-04-01 22:38
 Class:            E12
 Description:      This lab is about functions + debouncing buttons
-Github page:      https://github.com/glennlopez/Prog-2000/  
+Github page:      https://github.com/glennlopez/Prog-2000/
 ---------------------------------------------------------------------------------*/
 
 /*--      START HEADER FILES      --*/
@@ -28,15 +28,16 @@ Github page:      https://github.com/glennlopez/Prog-2000/
  void button_function(void);                // function for pushed button
 /*--      END PROTOTYPES      --*/
 
+
 /*--      MAIN FUNCTION      --*/
  void main(void)
  {
   unsigned char counter;  //  declare counter as a variable
   ports_initialize();     //  excecutes ports initialization function
- 
+
   while(1)
    {
-    button_function();    // excecutes button_function() function                   
+    button_function();    // excecutes button_function() function
     counter++;            // incremently count
     PEOUT = counter;      // PEOUT takes the variable of "counter"
    }
@@ -59,7 +60,7 @@ Github page:      https://github.com/glennlopez/Prog-2000/
   PEADDR = 0x03;            // O/P control function
   PECTL = 0x00;             // push pull rather than open drain
   PEADDR = 0x00;            // inadvertent changes to sub registers
- 
+
   PDADDR = 0x02;            // alt function
   PDCTL = 0x00;             // disable alt function
   PDADDR = 0x01;            // data dir
@@ -82,7 +83,7 @@ Github page:      https://github.com/glennlopez/Prog-2000/
     while(high_button() == 0);  // excecute high_button when button_function is called
     while(low_button() == 0);   // excecute low_button when button_function is called
    }
-  
+
   unsigned char high_button(void)
    {
     unsigned char mask_a;       // declare var mask_a as unsigned char
@@ -106,13 +107,13 @@ Github page:      https://github.com/glennlopez/Prog-2000/
 
 
 /*--      RELEASED BUTTON FUNCTION      --*/
- unsigned char low_button(void)   // 
+ unsigned char low_button(void)   //
   {
    unsigned char mask_b;          // sets mask_b as an unsigend intiger
    mask_b = PCIN;                 // sets mask_b to what ever PCIN is
-   mask_b &= 0x01;                // masks mas_b with 0x01 
+   mask_b &= 0x01;                // masks mas_b with 0x01
    if(mask_b == 1)                // loops if mask_b is equal to 1
-    {                           
+    {
      delay(2);                    // unsigned int time = 2
      mask_b = PCIN;               // mask_b is assigned the value of PCIN
      if(mask_b == 1)
@@ -126,19 +127,18 @@ Github page:      https://github.com/glennlopez/Prog-2000/
 /*--      END RELEASED FUNCTION      --*/
 
 
-
-/*--      DELAY FUNCTION      
+/*--      DELAY FUNCTION
 This function will is a nested loops to create
-delays rather than using the delay(); function 
+delays rather than using the delay(); function
 built in to stdlib.h
 */
- void delay(unsigned int time)    
+ void delay(unsigned int time)
  {
   unsigned int delay;             // sets delay as an unsigned intiger
   while(time > 0)                 // loops while time is more than 0
     {
      time--;                      // subtract 1 from time variable
-     for(                         // loop a for condition 
+     for(                         // loop a for condition
          delay=170;               // initialization statement
          delay>0;                 // test expression
          delay--                  // update statement (decrement var delay by 1)

@@ -1,17 +1,18 @@
 What is Prog-2000
----
-[![Stories in Ready](https://badge.waffle.io/glennlopez/prog-2000.png?label=ready&title=Ready)](https://waffle.io/glennlopez/prog-2000)
+-----------------
 
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C. I've released these files into the Public Domain - that means you can do whatever you want with it.
 
 You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me in person (Midterm exams are taken from multiple sources - I do not personally give you the exam copy, I just forward you to sources I trust who has them).
 
 Tabulation Structure
----
+--------------------
+
 <img src="http://i.stack.imgur.com/ji9pn.gif" />
 
 Intro to Microcontroller and C programming Course Resources
----
+-----------------------------------------------------------
+
 <ul>
 <li><a href="http://www.learn-c.org/">Online C Programming Tutorial</a></li>
 <li><a href="http://www.programiz.com/c-programming/">Documentation on C Programming</a></li>
@@ -22,13 +23,6 @@ Intro to Microcontroller and C programming Course Resources
 </ul>
 
 Videos of Lab Results
----
-The videos below show what your Zilog is suppose to do after uploading the binary to the uC 
-<ul>
-<li><a href="#">Lab 2</a></li>
-<li><a href="#">Lab 3</a></li>
-<li><a href="#">Lab 4</a></li>
-<li><a href="#">Lab 5</a></li>
-<li><a href="#">Lab 6</a></li>
-<li><a href="#">Lab 7</a></li>
-</ul>
+---------------------
+
+The videos below show what your Zilog is suppose to do after uploading the binary to the uC<ul><li><a href="#">Lab 2</a></li><li><a href="#">Lab 3</a></li><li><a href="#">Lab 4</a></li><li><a href="#">Lab 5</a></li><li><a href="#">Lab 6</a></li><li><a href="#">Lab 7</a></li></ul>
