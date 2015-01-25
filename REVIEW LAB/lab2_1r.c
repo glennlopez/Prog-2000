@@ -7,5 +7,5 @@
 
 Program:					Lab 2.1
 Programmer:				Glenn Lopez
-Description:			Yellow light turns on if leds = 0x05 [line 29]	
+Description:			
 ---------------------------------------------------------------------------------*/
