@@ -3,7 +3,7 @@ What is Prog-2000
 
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C. It's also a reward for resourceful students. 
 
-<b>Is this cheating?</b> Define cheating... You have to be a new breed of retard to seriously think having the answer is "unfair". For one, since when is school a competition between others? Maybe to imbecils who only care about grades... school is for learning, not competing. 
+<b>Is this cheating?</b> Define cheating... You have to be a new breed of retard to seriously think having the answer is "unfair". For one, since when is school a competition between others? Maybe to imbecils who only care about grades... school is for learning, not competing. If you don't participate and actually take the time to grasp the material you will fail and thats your own damn fault. The content I provide is there to give you more time when your instructor pushes you for deadline... it is not so you can skip out on learning this material.
 
 You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me in person (Midterm exams are taken from multiple sources - I do not personally give you the exam copy, I just forward you to sources I trust who has them).
 
