@@ -1,7 +1,7 @@
 What is Prog-2000
 -----------------
 
-I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C. It's also a reward for resourceful students. 
+I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. 
 
 <b>Is this cheating?</b> Define cheating... You have to be a new breed of retard to seriously think having the answer is "unfair". For one, since when is school a competition between others? Maybe to imbecils who only care about grades. School is for learning, not competing. If you don't participate and actually take the time to grasp the material you will fail and thats your own fault. 
 
