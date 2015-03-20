@@ -3,11 +3,7 @@ What is Prog-2000
 
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. 
 
-<b>Is this cheating?</b> Define cheating... You have to be a new breed of retard to seriously think having the answer is "unfair". For one, since when is school a competition between others? Maybe to imbecils who only care about grades. School is for learning, not competing. If you don't participate and actually take the time to grasp the material you will fail and thats your own fault. 
-
-The content I provide is there to give you more time when your instructor pushes you for deadlines... it is not so you can skip out on learning this material. The midterm exam I provide have no answers, its given to tell you what you need to study. I do not give out final exams as those are dynamicly generated through colaborative effort by multiple instructors. 
-
-You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me in person (Midterm exams are taken from multiple sources - I do not personally give you the exam copy, I just forward you to sources I trust who has them).
+You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me via email. Answer key is given to holders of bitcoin address that have donated to https://www.coinbase.com/glennlopez. You can also ask facebook groups for the answer key or get together with people to figure out the answer as a team, its entirely up to you.
 
 Tabulation Structure
 --------------------
