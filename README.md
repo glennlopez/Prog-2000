@@ -1,7 +1,7 @@
 What is Prog-2000
 -----------------
 
-I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me via email. As an incentive to get students into bitcoin.. midterm exam answer key is given to holders of bitcoin address that have donated to https://www.coinbase.com/glennlopez. You can also ask facebook groups for the answer key or get together with people to figure out the answer as a team, its entirely up to you.
+I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me via email. As an incentive to get students into bitcoin.. midterm exam answer key is given to holders of bitcoin address that have donated to https://www.coinbase.com/glennlopez (if you are going into electronic, you should make it your business to understand how the blockchain works). You can also ask facebook groups for the answer key or get together with people to figure out the answer as a team, its entirely up to you.
 
 Tabulation Structure
 --------------------
