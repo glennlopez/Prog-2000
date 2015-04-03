@@ -1,7 +1,7 @@
 What is Prog-2000
 -----------------
 
-I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me via email. I don't give out answers to midterm but im sure you can form a group to figure it out then sell the answer and midterm copy to the next class (rrc likes to recycle midterm exam questions - so far there are 2 know variace, all of which cover the same topics). I prefer you share - sharing is caring, monopolising and taking advantage of people is such a hojat thing to do -- dont be a hojat
+I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me via email. I don't give out answers, make a group, work together, and find the solution - teamwork is everything.
 
 Tabulation Structure
 --------------------
