@@ -4,7 +4,10 @@ I've created this github page for "Intro to Micro and C Programming" to fill a m
 
 So, to emphesise how primative your your school is, I will provide you old exams and labs. It was 2012 when this was created.. if by 4 years you are still given the same exam and labs, then I HIGHLY suggest you find a diffrent school if you care about making a diffrence in technology. If you just took this course to get a diploma and dont really give a shit about the subject you are studying, they you came to the right college. Congratulations, here are your <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions</a>. 
 
-"Practice" Midterm Exam will be provided by asking me via email. I don't give out answers to midterms since I'm giving you an opertunity to make money by selling exam answers to next years students (its not so much the students fault for cheating, but the institution that allows it by ignoring common sense, being lazy and failing to think outside the box). Make a group, work together, and find the solution - teamwork is everything when building software -- don't be the lonely nerd that does everything on his own. Inovation comes from a multiplicity of derived ideas coming from diverse mindsets, colaborated together to solve a unique problem, if you're not solving a unique problem then you're just copy-paste engineering. 
+"Practice" Midterm Exam will be provided by asking me via email. I don't give out answers to midterms since I'm giving you an opertunity to make money by selling exam answers to next years students (its not so much the students fault for cheating, but the institution that allows it by ignoring common sense, being lazy and failing to think outside the box). Make a group, work together, and find the solution - teamwork is everything when building software -- don't be the lonely nerd that does everything on his own. Inovation comes from a multiplicity of derived ideas coming from diverse mindsets, colaborated together to solve a unique problem. 
+
+If you're not solving a unique problem then you're just copy-paste engineering. 
+
 
 Tabulation Structure
 --------------------
