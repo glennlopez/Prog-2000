@@ -6,7 +6,7 @@ So, to emphesise how primative your your school is, I will provide you old exams
 
 "Practice" Midterm Exam will be provided by asking me via email. I don't give out answers to midterms since I'm giving you an opertunity to make money by selling exam answers to next years students (its not so much the students fault for cheating, but the institution that allows it by ignoring common sense, being lazy and failing to think outside the box. <b>If RRC scolds you for selling exam answer keys</b>, simply ask if its really your fault that they are too lazy to generate new exams every term and to just give old exams as study guides). 
 
-Make a group, work together, and find the solution - teamwork is everything when building software -- don't be the lonely nerd that does everything on his own. Inovation comes from a multiplicity of derived ideas coming from diverse mindsets, colaborated together to solve a unique problem. 
+If you want the answers to the exams then make a group, work together, and find the solution - teamwork is everything when building software -- don't be the lonely nerd that does everything on his own. Inovation comes from a multiplicity of derived ideas coming from diverse mindsets, colaborated together to solve a unique problem. 
 
 If you're not solving a unique problem then you're just copy-paste engineering. 
 
