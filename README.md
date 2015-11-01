@@ -1,27 +1,5 @@
 What is Prog-2000
 -----------------
-<script src="//blockr.io/js_external/coinwidget/coin.js"></script>
-		<script>
-			CoinWidgetCom.go({
-				wallet_address: '1GLENNseqwECr5GH4cevSBh1VfHMxoJhd6',
-				currency: 'bitcoin',
-				counter: 'amount',
-				lbl_button: 'Recieved',
-				lbl_count: 'donations',
-				lbl_amount: 'BTC',
-				lbl_address: 'Use address below to donate. Thanks!',
-				qrcode: true,
-				alignment: 'bl',
-				decimals: 8,
-				size: "big",
-				color: "dark",
-				countdownFrom: "0.2",
-				element: "#coinwidget-bitcoin-1GLENNseqwECr5GH4cevSBh1VfHMxoJhd6",
-				onShow: function(){},
-				onHide: function(){}
-			});
-		</script>
-		<div id="coinwidget-bitcoin-1GLENNseqwECr5GH4cevSBh1VfHMxoJhd6"></div>
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. "Practice" Midterm Exam will be provided by asking me via email. I don't give out answers to midterms. Make a group, work together, and find the solution - teamwork is everything when building software.
 
 Tabulation Structure
