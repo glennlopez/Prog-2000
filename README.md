@@ -4,7 +4,7 @@ I've created this github page for "Intro to Micro and C Programming" to fill a m
 
 "Practice" Midterm Exam will be provided by asking me via email (gives me a general idea for its demand). I don't give out answers to midterms. If you want the answers to the exams then make a group, work together, and find the solution - teamwork is everything when building software -- don't be the lonely nerd that does everything on his own. Inovation comes from a multiplicity of derived ideas coming from diverse mindsets, colaborated together to solve a unique problem. 
 
-If you're not solving a unique problem then you're just copy-paste engineering. 
+If you're not solving a unique problem then you're just copy-paste engineering. Agree with everything I've said so far? Good.. now for your sake visit http://www.born-to-learn.org/ and see why you're having such a hard time learning C.
 
 
 Tabulation Structure
