@@ -4,7 +4,7 @@ I've created this github page for "Intro to Micro and C Programming" in hopes of
 
 <b>Need the midterm ASAP?</b> http://satoshibox.com/564b9df212fb6d1e638b45ba
 
-<b>Don't have Bitcoins?</b> https://quickbt.com/ca/?
+<b>Don't have Bitcoins?</b> https://quickbt.com/ca/
 
 
 
