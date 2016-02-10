@@ -7,6 +7,9 @@ I've created this github page for "Intro to Micro and C Programming" in hopes of
 <b>Don't have Bitcoins?</b> https://quickbt.com/ca/
 
 
+<b>Note to IEEE and Instructors: </B>Please update this course ffs! ZiLog board is expensive, theres very little hardware support, and "its used everywhere" -said no company ever. If you want your students to stand out, have them learn on an actual Arm Cortex uC. Do what UTAustin is doing http://users.ece.utexas.edu/~valvano/arm/outline1.htm the board is $13, students can use it after they are done with the course to develop thier own IoT and its ARM! uVision is a flagship is to Embedded Engineers as SolidWorks is to Mechanical Engineers as Altium Designer is to Hardware Engineers.
+
+
 
 
 Tabulation Structure
