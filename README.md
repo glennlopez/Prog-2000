@@ -2,12 +2,9 @@ What is Prog-2000
 -----------------
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. Practice Midterm Exam will be provided by asking me via email (Free). I don't give out answers, make a group, work together, and find the solution. 
 
-<b>Need the practice midterm ASAP?</b> http://satoshibox.com/564bbeef12fb6dc3658b458b
+<b>Students planning on taking Electronics:</B> Depending on when you finish this course, I highly recommend adding C++, to your skillset to set you apart from the other 200+ students looking for co-op. Never believe anyone that tells you how C is exactly just like C++ or vice versa. These people have either never written in an Object Oriented Programming mindset before, have no useful experiance writing code in C++, or just rehashing what they heard from "experts" born in the 70's. 
 
-<b>Don't have Bitcoins?</b> https://quickbt.com/ca/
-
-
-<b>Note to IEEE and Instructors: </B>Please update this course ffs! ZiLog board is expensive, theres very little hardware support, and "its used everywhere" -said no company ever. If you want your students to stand out, have them learn on an actual Arm Cortex uC. Do what UTAustin is doing http://users.ece.utexas.edu/~valvano/arm/outline1.htm the board is $13, students can use it after they are done with the course to develop thier own IoT and its ARM! uVision is to Embedded Engineers as SolidWorks is to Mechanical Engineers as Altium Designer is to Hardware Engineers.
+C++ provides you the option between procedural, object-oriented, and generative programming. This means you can address your problems in several diffrent ways. In C++, you can manage you stack and heap memory better, get the job done faster with fewer lines of code and have access to constructs like operator overloading, classes, and lambda expressions. Knowing both means you'll be a better investment to your employer later on. It gives you an opertunity to get promoted from within and take on Engineering roles within the firm without a degree.
 
 
 
