@@ -2,6 +2,9 @@ What is Prog-2000
 -----------------
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. Practice Midterm Exam will be provided by asking me via email (Free). I don't give out answers, make a group, work together, and find the solution. 
 
+If you're wondering where all this is going to (the stuff you're learning in Prog-200) its to get you ready for this https://www.youtube.com/watch?v=JXBk6Y79Lrg | Source code available here: https://github.com/glennlopez/MICR-1240
+
+
 Students planning on taking Electronics Engineering Technology
 -----------------
 Depending on when you finish this course, I highly recommend adding C++ http://www.learncpp.com/ to your skillset to set you apart from the other 200+ students looking for co-op. Never believe anyone that tells you how C is exactly just like C++ or vice versa. These people have either never written in an Object Oriented Programming mindset before, have no useful experience writing code in C++, or just rehashing what they heard from "experts" born in the 70's. 
