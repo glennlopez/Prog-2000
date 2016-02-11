@@ -7,13 +7,6 @@ If you're wondering where all this is going to (the stuff you're learning in Pro
 <b>Labs for next term available here:</b> https://github.com/glennlopez/MICR-1240
 
 
-Students planning on taking Electronics Engineering Technology
------------------
-Depending on when you finish this course, I highly recommend adding C++ http://www.learncpp.com/ to your skillset to set you apart from the other 200+ students looking for co-op. Never believe anyone that tells you how C is exactly just like C++ or vice versa. These people have either never written in an Object Oriented Programming mindset before, have no useful experience writing code in C++, or just rehashing what they heard from "experts" born in the 70's. 
-
-C++ provides you the option between procedural, object-oriented, and generative programming. This means you can address your problems in several diffrent ways. In C++, you can manage you stack and heap memory better, get the job done faster with fewer lines of code and have access to constructs like operator overloading, classes, and lambda expressions. Knowing both means you'll be a better investment to your employer later on. It gives you an opportunity to get promoted from within and take on Engineering roles.
-
-
 
 
 
