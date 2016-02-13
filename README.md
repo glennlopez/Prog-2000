@@ -15,6 +15,7 @@ Tabulation Structure
 <img src="http://i.stack.imgur.com/ji9pn.gif" />
 
 <b>Bonus brownie points:</b>  Why use void main(void) vs int main(void)
+
 Yes, IT IS proper to use void main() in the world of microcontrollers but its bad practice for coding. Typically your main() should look like int main(int argc, const char* argv[]){...}
 
 void main(void) is used becuase microcontrollers don't ever need to "return" anything outside of main. Infact, you're typically going to use a while(1) inside main() to loop your instructions over and over again till you turn off the microcontroller. In the world of software development, exits are generally represented by a 0 return value from main. Any abnormal termination is usually signalled by a non zero return.
