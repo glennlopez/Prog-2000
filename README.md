@@ -1,6 +1,6 @@
 What is Prog-2000
 -----------------
-I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. Practice Midterm Exam will be provided by asking me via email (Free). I don't give out answers, make a group, work together, and find the solution. 
+I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>. Practice Midterm Exam provided <a href="https://github.com/glennlopez/Prog-2000/wiki/Practice-Midterm-Exam> here </a>. I don't give out answers, make a group, work together, and find the solution. 
 
 If you're wondering where all this is going to (the stuff you're learning in Prog-200) its to get you ready for this https://www.youtube.com/watch?v=JXBk6Y79Lrg 
 
