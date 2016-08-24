@@ -4,7 +4,7 @@ I've created this github page for "Intro to Micro and C Programming" in hopes of
 
 It's your choice to use these resources I am providing as reference or for cheating. Maybe when learning is not commensurately represented by grades, you'll realize how pointless it is to say you learned something, when you clearly haven't. If you are going to cheat, atleast be creative about it. Just keep in mind that grades are only a currency and sole commodity of schools... In real life, your grades are worthless. What you get out of your coursework will be your only asset when solving problems in the real world.
 
-So... If you're bold enough, go ahead -- cheat. You may learn a valueble lesson when you realize how easy it was to kill someone with your signature.
+So... If you're bold enough, go ahead -- cheat. You may learn a valuable lesson when you find out how easy it was to kill someone with your signature.
 
 
 <b>Labs for next term available here:</b> https://github.com/glennlopez/MICR-1240
