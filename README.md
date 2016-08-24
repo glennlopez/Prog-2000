@@ -2,7 +2,7 @@ What is Prog-2000
 -----------------
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>, practice Midterm Exam provided <a href="https://github.com/glennlopez/Prog-2000/wiki/Practice-Midterm-Exam">here</a>, and finished labs <a href="https://github.com/glennlopez/Prog-2000/tree/master/FINISHED%20LAB"> here</a>. I don't give out answers to exams, make a group, work together, and find the solution. 
 
-It's your choice to use these resources I am providing as reference or for cheating. Maybe when learning is not commensurately represented by grades, you'll realize how pointless it is to say you learned something, when you clearly haven't. If you are going to cheat, atleast be creative about it. Keep in mind that grades are only a currency and sole commodity of schools... In real life, your grades are worthless.
+It's your choice to use these resources I am providing as reference or for cheating. Maybe when learning is not commensurately represented by grades, you'll realize how pointless it is to say you learned something, when you clearly haven't. If you are going to cheat, atleast be creative about it. Just keep in mind that grades are only a currency and sole commodity of schools... In real life, your grades are worthless. What you get out of your coursework will be your ownly asset when solving problems in the real world.
 
 
 <b>Labs for next term available here:</b> https://github.com/glennlopez/MICR-1240
