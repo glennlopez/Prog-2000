@@ -1,6 +1,6 @@
 What is Prog-2000
 -----------------
-><b>For prospective employers:</b> A lot of the code I wrote for Prog-2000 are old/un-revised. As such, you may see a lot of bad coding habits. For more recent materials, do visit https://github.com/glennlopez/EmbeddedSystems.Playground. My <b>Embedded.Playground</b> repo I play around with more modern micro controllers such as Texas Instruments TMC4 using <u>Arm's Cortex M4</u> architechture.
+><b>For prospective employers:</b> A lot of the code I wrote for Prog-2000 are old/un-revised. As such, you may see a lot of bad coding habits. For more recent materials, do visit https://github.com/glennlopez/EmbeddedSystems.Playground. My <b>Embedded.Playground</b> repo is where I keep the more modern micro controllers I play with (ie:Texas Instruments TMC4 using <u>Arm's Cortex M4</u> architechture).
 
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>, practice Midterm Exam provided <a href="https://github.com/glennlopez/Prog-2000/wiki/Practice-Midterm-Exam">here</a>, and finished labs <a href="https://github.com/glennlopez/Prog-2000/tree/master/FINISHED%20LAB"> here</a>. I don't give out answers to exams, make a group, work together, and find the solution. 
 
