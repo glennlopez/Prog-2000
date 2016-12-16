@@ -1,6 +1,5 @@
 What is Prog-2000
 -----------------
-><b>Prospective employers:</b> A lot of the code I wrote for Prog-2000 are more than 3 years old & also un-revised. As such, you may see a lot of bad coding habits. For more recent materials, do visit https://github.com/glennlopez/EmbeddedSystems.Playground. It's where I keep all my recent work for the newer uC I evaluate/play with (ie:Texas Instruments TMC4 using <u>Arm's Cortex M4</u> architechture, Cypress's PSoC5, and other modules like BLE, Zig/XBee, WiFi, some generic sensors etc..).
 
 I've created this github page for "Intro to Micro and C Programming" in hopes of teaching my self how to use github while learning C; also to help fellow students. You can find the <a href="https://github.com/glennlopez/Prog-2000/wiki">Answers to Package Questions here</a>, practice Midterm Exam provided <a href="https://github.com/glennlopez/Prog-2000/wiki/Practice-Midterm-Exam">here</a>, and finished labs <a href="https://github.com/glennlopez/Prog-2000/tree/master/FINISHED%20LAB"> here</a>. I don't give out answers to exams, make a group, work together, and find the solution. 
 
@@ -8,7 +7,7 @@ It's your choice to use these resources I am providing as reference or for cheat
 
 <b>Labs for next term available here:</b> https://github.com/glennlopez/MICR-1240
 
-
+><b>Prospective employers:</b> A lot of the code I wrote for Prog-2000 are more than 3 years old & also un-revised. As such, you may see a lot of bad coding habits. For more recent materials, do visit https://github.com/glennlopez/EmbeddedSystems.Playground. It's where I keep all my recent work for the newer uC I evaluate/play with (ie:Texas Instruments TMC4 using <u>Arm's Cortex M4</u> architechture, Cypress's PSoC5, and other modules like BLE, Zig/XBee, WiFi, some generic sensors etc..).
 
 
 Tabulation Structure
