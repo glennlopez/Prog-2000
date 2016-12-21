@@ -7,7 +7,7 @@ It's your choice to use these resources I am providing as reference or for cheat
 
 <b>Labs for next term available here:</b> https://github.com/glennlopez/MICR-1240
 
-><b>Prospective employers:</b> A lot of the code I wrote for Prog-2000 are more than 3 years old & also un-revised. As such, you may see a lot of bad coding habits. For more recent materials, do visit https://github.com/glennlopez/EmbeddedSystems.Playground. It's where I keep all my recent work for the newer uC I evaluate/play with (ie:Texas Instruments TMC4 using <u>Arm's Cortex M4</u> architechture, Cypress's PSoC5, and other modules like BLE, Zig/XBee, WiFi, some generic sensors etc..).
+><b>Prospective employers:</b> For more recent materials, do visit https://github.com/glennlopez/EmbeddedSystems.Playground. It's where I keep all my recent work for the newer uC I evaluate/play with (ie:Texas Instruments TMC4 using <u>Arm's Cortex M4</u> architechture, Cypress's PSoC5, and other modules like BLE, Zig/XBee, WiFi, some generic sensors etc..).
 
 
 Tabulation Structure
