@@ -7,7 +7,7 @@ It's your choice to use these resources I am providing as reference or for cheat
 
 <b>Labs for next term available here:</b> https://github.com/glennlopez/MICR-1240
 
-><b>Prospective employers:</b> For all my recent embedded systems materials with newer uC's, visit https://github.com/glennlopez/EmbeddedSystems.Playground.
+><b>Prospective employers:</b> Visit https://github.com/glennlopez/EmbeddedSystems.Playground for all my recent embedded systems materials.
 
 
 Tabulation Structure
